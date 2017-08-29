@@ -82,12 +82,11 @@
     <Reference Include="System.Windows.Forms" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Leayal.Core\Leayal.Core.csproj">
+    <ProjectReference Include="Leayal.Core\Leayal.Core.csproj">
       <Project>{3dcd41bd-c295-4bd1-b675-aedc9fcbfa1a}</Project>
       <Name>Leayal.Core</Name>
     </ProjectReference>
   </ItemGroup>
-  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

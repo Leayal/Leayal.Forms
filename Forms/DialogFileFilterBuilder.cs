@@ -90,7 +90,7 @@ namespace Leayal.Forms
                     else
                         alltypeSB.AppendFormat(",{0}", innerList[i].GetManyExts(","));
                 }
-                this.sb.AppendFormat("|All Supported Types ({0})|{1}", alltypeSB.ToString(), alltypeSB.Replace(",", ";").ToString());
+                this.sb.AppendFormat("All Supported Types ({0})|{1}|", alltypeSB.ToString(), alltypeSB.Replace(",", ";").ToString());
             }
             for (int i = 0; i < this.Count; i++)
             {
